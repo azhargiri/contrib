@@ -1,0 +1,52 @@
+--- editor_mysql_table_live.glade.orig	2012-02-02 08:22:48.220836001 +0700
++++ editor_mysql_table_live.glade	2012-02-02 08:27:33.392835999 +0700
+@@ -481,9 +481,6 @@
+               <object class="GtkTreeView" id="indexes">
+                 <property name="visible">True</property>
+                 <property name="can_focus">True</property>
+-                <child internal-child="selection">
+-                  <object class="GtkTreeSelection" id="treeview-selection1"/>
+-                </child>
+               </object>
+             </child>
+           </object>
+@@ -540,9 +537,6 @@
+                   <object class="GtkTreeView" id="index_columns">
+                     <property name="visible">True</property>
+                     <property name="can_focus">True</property>
+-                    <child internal-child="selection">
+-                      <object class="GtkTreeSelection" id="treeview-selection2"/>
+-                    </child>
+                   </object>
+                 </child>
+               </object>
+@@ -793,9 +787,6 @@
+                   <object class="GtkTreeView" id="fks">
+                     <property name="visible">True</property>
+                     <property name="can_focus">True</property>
+-                    <child internal-child="selection">
+-                      <object class="GtkTreeSelection" id="treeview-selection3"/>
+-                    </child>
+                   </object>
+                 </child>
+               </object>
+@@ -852,9 +843,6 @@
+                       <object class="GtkTreeView" id="fk_columns">
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+-                        <child internal-child="selection">
+-                          <object class="GtkTreeSelection" id="treeview-selection4"/>
+-                        </child>
+                       </object>
+                     </child>
+                   </object>
+@@ -1413,9 +1401,6 @@
+               <object class="GtkTreeView" id="part_tv">
+                 <property name="visible">True</property>
+                 <property name="can_focus">True</property>
+-                <child internal-child="selection">
+-                  <object class="GtkTreeSelection" id="treeview-selection5"/>
+-                </child>
+               </object>
+             </child>
+           </object>
